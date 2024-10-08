@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(x@2f##0vuwqq_xw_7rx!z28iix(4-xz4s8%xp(d_r$jb%@5sy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nyelix-cms.onrender.com']
+ALLOWED_HOSTS = ['nyelix-cms.onrender.com','127.0.0.1']
 
 
 
