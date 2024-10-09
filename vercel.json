@@ -1,8 +1,13 @@
 {
+    "version": 2,
   "builds": [{
       "src": "nyelix/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+  },{
+        "src": "static/src/input.css",
+        "use": "@vercel/static-build",
+        "config": { "output": "static/src/styles.css" }
   }],
   "routes": [
       {

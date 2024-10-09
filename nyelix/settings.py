@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(x@2f##0vuwqq_xw_7rx!z28iix(4-xz4s8%xp(d_r$jb%@5sy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['vek.onrender.com','127.0.0.1','.vercel.app']
+ALLOWED_HOSTS = ['vek.onrender.com','127.0.0.1','.vercel.app','.now.sh']
 
 
 
@@ -129,7 +129,7 @@ USE_TZ = True
 import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build','static')
 
 
 
