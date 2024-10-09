@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'nyelix.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME':'railway',
-        'HOST':'autorack.proxy.rlwy.net',
-        'USER':'root',
-        'PASSWORD':'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
-        'PORT':'18730'
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'railway',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'USER': 'root',
+        'PASSWORD': 'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
+        'PORT': '18730',
     }
 }
 
