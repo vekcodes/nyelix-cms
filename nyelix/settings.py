@@ -75,16 +75,17 @@ WSGI_APPLICATION = 'nyelix.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'railway',
-        'HOST': 'autorack.proxy.rlwy.net',
-        'USER': 'root',
-        'PASSWORD': 'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
-        'PORT': '18730',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mysql.connector.django',
+#         'NAME': 'railway',
+#         'HOST': 'autorack.proxy.rlwy.net',
+#         'USER': 'root',
+#         'PASSWORD': 'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
+#         'PORT': '18730',
+#     }
+# }
+
 
 
 # Password validation
