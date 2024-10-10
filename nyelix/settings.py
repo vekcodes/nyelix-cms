@@ -24,7 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'your-default-secret-key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+# DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = True
 
 ALLOWED_HOSTS = ['vek.onrender.com', '127.0.0.1']
 
@@ -75,16 +76,16 @@ WSGI_APPLICATION = 'nyelix.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'mysql.connector.django',
-#         'NAME': 'railway',
-#         'HOST': 'autorack.proxy.rlwy.net',
-#         'USER': 'root',
-#         'PASSWORD': 'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
-#         'PORT': '18730',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'USER': 'root',
+        'PASSWORD': 'rWbcAwMOafGnlOLNQjzuGCHlzKQDnrNo',
+        'PORT': '18730',
+    }
+}
 
 
 
